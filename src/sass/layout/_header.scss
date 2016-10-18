@@ -1,0 +1,44 @@
+header{
+  .logo{
+    height: 50px;
+    width: 180px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 10px 5px 20px;
+    img{
+      max-width: 150px;
+    }
+  }
+  nav{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    .dd{
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 22px;
+      padding: 0 10px;
+      font-weight: 300;
+    }
+    a{
+      text-align: center;
+      display: inline-block;
+      border: 1px double white;
+      color: $menu-text-color;
+      padding: 3px 15px;
+      text-decoration: none;
+      font-weight: bolder;
+      vertical-align: middle;
+      &:hover{
+        color: $menu-text-color-hover;
+        background-color: $light-bg;
+      }
+      span{
+        clear: both;
+        display: block;
+        font-size: 11px;
+        font-weight: 200;
+      }
+    }
+  }
+}

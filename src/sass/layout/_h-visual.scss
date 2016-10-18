@@ -1,0 +1,31 @@
+section{
+  background-color: $light-bg;
+  padding: 50px 0;
+  .visual{
+    max-width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url(/assets/img/visual_1.png);
+    background-size:cover;
+    position: relative;
+    .hero{
+      position: absolute;
+      bottom: -40px;
+      left: -188px;
+      
+    }
+    .v-text{
+      position: absolute;
+      right: -50px;
+      top:20px;
+      opacity: 0.7;
+      div{
+        float:right;
+        padding: 0 7px;
+        img{
+          width: 80%;
+        }
+      }
+    }
+  }
+}

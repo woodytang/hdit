@@ -1,0 +1,5 @@
+#忽略gitignore文件  
+.gitignore  
+
+#显示指定忽略名称为main的文件  
+/node_modules/
